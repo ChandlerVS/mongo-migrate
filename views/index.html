@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="form-group mt-4">
+        <label for="sourceConnectionString">Source Connection String</label>
+        <input type="text" class="form-control" name="sourceConnectionString" id="sourceConnectionString">
+    </div>
+    <div class="form-group">
+        <label for="destConnectionString">Destination Connection String</label>
+        <input type="text" class="form-control" name="destConnectionString" id="destConnectionString">
+    </div>
+    <div class="form-group">
+        <label for="sourceDatabaseName">Source Database Name</label>
+        <input type="text" class="form-control" name="sourceDatabaseName" id="sourceDatabaseName">
+    </div>
+    <div class="form-group">
+        <label for="destDatabaseName">Dest Database Name</label>
+        <input type="text" class="form-control" name="destDatabaseName" id="destDatabaseName">
+    </div>
+    <button class="btn btn-primary btn-block" id="btnMigrate">Migrate</button>
+</div>
+<script src="../dist/electron-render.js"></script>
+</body>
+</html>

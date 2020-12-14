@@ -1,0 +1,26 @@
+{
+  "name": "mongo-migrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/electron.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Chandler Van Scoy",
+    "email": "chandler@chandlervanscoy.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mongodb": "^3.6.3",
+    "electron": "^11.1.0",
+    "electron-reload": "^1.5.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.3"
+  }
+}
