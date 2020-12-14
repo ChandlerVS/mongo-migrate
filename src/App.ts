@@ -2,8 +2,6 @@ import { app, BrowserWindow, ipcMain } from "electron";
 import path from "path";
 import migrateData from "./eventHandlers/migrateData";
 
-require("electron-reload")(__dirname);
-
 class App {
   mainWindow: BrowserWindow | null = null;
 
